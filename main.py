@@ -9,7 +9,7 @@ QMainWindow.setWindowTitle(window, 'Рандомайзер') #установил
 
 
 
-int_label = QLabel()
+int_label = QLabel('Введите числа в строки ниже')
 int_from = QLineEdit()
 int_from.setPlaceholderText('Введите число от')
 int_before = QLineEdit()                            #добавил виджеты
